@@ -51,10 +51,10 @@ const clickedContinueButton = () => {
     modifyCvc.textContent = '000'
 }
 
-inputName.addEventListener('keypress',inputCardName)
-inputNumber.addEventListener('keypress',inputCardNumber)
-inputMounth.addEventListener('keypress',inputDate)
-inputYear.addEventListener('keypress',inputDate)
-cvc.addEventListener('keypress', inputCvc)
+inputName.addEventListener('keyup',inputCardName)
+inputNumber.addEventListener('keyup',inputCardNumber)
+inputMounth.addEventListener('keyup',inputDate)
+inputYear.addEventListener('keyup',inputDate)
+cvc.addEventListener('keyup', inputCvc)
 confirmButton.addEventListener('click', clickedConfirmButton)
 continueButton.addEventListener('click', clickedContinueButton)
